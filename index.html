@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="asset/Styles.css">
 </head>
 <body>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle to Light Mode</button>
     <div class="calculator">
         <input type="text" id="display" disabled>
         <div class="buttons">
@@ -32,6 +33,13 @@
             <button onclick="appendToDisplay('+')">+</button>
         </div>
     </div>
+
+    <div class="sidebar">
+        <h3>History</h3>
+        <div id="history" class="history"></div> <!-- History section in sidebar -->
+    </div>
+
+    <audio id="button-sound" src="C:/Users/Teacher/Documents/Respiratory/calculator2.github.io/asset/buttons_calculator-76064 (mp3cut.net).mp3"></audio>
     <script src="fungtion.js"></script>
 </body>
 </html>
